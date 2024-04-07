@@ -2,7 +2,7 @@
 using namespace std;
 int main(){
 	int ch;
-	cout<<"enter your choice : 1)print int\n2)print long\n3)print float\n4)print double\n5)print char\n6)exit";
+	cout<<"enter your choice : 1)print int\n2)print long\n3)print float\n4)print double\n5)print char\n6)exit\n";
 	cin>>ch;
 	switch(ch){
 		case 1:
@@ -11,7 +11,7 @@ int main(){
 			cout<<"enter value of n";
 			cin>>n;
 			cout<<sizeof(n);
-			break;
+			cout<<"\n";
 		}
 		case 2:
 		{
@@ -19,7 +19,7 @@ int main(){
 			cout<<"enter value of l";
 			cin>>l;
 			cout<<sizeof(l);
-			break;
+            cout<<"\n";
 		}
 		case 3:
 		{
@@ -27,7 +27,7 @@ int main(){
 			cout<<"enter value of f";
 			cin>>f;
 			cout<<sizeof(f);
-			break;
+            cout<<"\n";
 		}
 		case 4:
 		{
@@ -35,7 +35,7 @@ int main(){
 			cout<<"enter value of d";
 			cin>>d;
 			cout<<sizeof(d);
-			break;
+            cout<<"\n";
 		}
 		case 5:
 		{
@@ -43,6 +43,7 @@ int main(){
 			cout<<"enter value of c";
 			cin>>c;
 			cout<<sizeof(c);
+			cout<<"\n";
 			break;
 		}
 		default:
